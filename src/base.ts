@@ -150,9 +150,8 @@ export const baseConfig = defineConfig([
           groups: [
             'side-effect-style',
             'style',
-            { newlinesBetween: 1 },
             'type',
-            { newlinesBetween: 1 },
+            ['default-builtin', 'default-external'],
             ['builtin', 'external'],
             'internal',
             ['parent', 'sibling', 'index'],
