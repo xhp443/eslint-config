@@ -1,4 +1,5 @@
 import nextVitals from 'eslint-config-next/core-web-vitals'
+
 import { defineConfig, globalIgnores } from 'eslint/config'
 
 import { reactConfig } from './react'

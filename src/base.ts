@@ -2,9 +2,10 @@ import js from '@eslint/js'
 import perfectionist from 'eslint-plugin-perfectionist'
 import eslintPluginPrettierRecommended from 'eslint-plugin-prettier/recommended'
 import unusedImports from 'eslint-plugin-unused-imports'
-import { defineConfig, globalIgnores } from 'eslint/config'
 import globals from 'globals'
 import tseslint, { FlatConfig } from 'typescript-eslint'
+
+import { defineConfig, globalIgnores } from 'eslint/config'
 
 /**
  * 只有这些文件走 TypeScript 解析器和类型感知规则，避免 .js/.mjs 因不在 tsconfig 中报解析错误
